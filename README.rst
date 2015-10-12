@@ -1,7 +1,8 @@
 PostgreSQL/psycopg2 database adapter for Django that supports "ON DELETE CASCADE" at the database level
 =======================================================================================================
 
-This is a temporary workaround until Django's ticket #21961 is fixed.
+This is a temporary workaround until `Django's ticket #21961
+<https://code.djangoproject.com/ticket/21961>`_ is fixed.
 
 To use it, you just have to:
 
