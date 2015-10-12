@@ -1,0 +1,6 @@
+include VERSION.txt
+include README.rst
+include setup.py
+
+exclude setup.cfg
+exclude MANIFEST.in

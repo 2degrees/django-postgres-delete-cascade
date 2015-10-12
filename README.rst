@@ -34,6 +34,12 @@ To use it, you just have to:
 Change log
 ----------
 
+Version 1.0 Release Candidate 3 (2015-10-12)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Fixed packaging issue.
+
+
 Version 1.0 Release Candidate 2 (2015-10-12)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
