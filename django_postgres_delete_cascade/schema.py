@@ -14,11 +14,12 @@
 #
 ##############################################################################
 
-from django.db.backends.postgresql_psycopg2.base import \
-    DatabaseWrapper as PostgresDatabaseWrapper
-
-from django_postgres_delete_cascade.schema import DatabaseSchemaEditor
+from django.db.backends.postgresql_psycopg2.schema import DatabaseSchemaEditor
 
 
-class DatabaseWrapper(PostgresDatabaseWrapper):
-    SchemaEditorClass = DatabaseSchemaEditor
+class DatabaseSchemaEditor(DatabaseSchemaEditor):
+
+    sql_create_fk = \
+        'ALTER TABLE %(table)s ADD CONSTRAINT %(name)s ' \
+        'FOREIGN KEY (%(column)s) REFERENCES %(to_table)s (%(to_column)s) ' \
+        'ON DELETE CASCADE DEFERRABLE INITIALLY DEFERRED'
