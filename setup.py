@@ -1,6 +1,6 @@
 ##############################################################################
 #
-# Copyright (c) 2015, 2degrees Limited.
+# Copyright (c) 2015-2016, 2degrees Limited.
 # All Rights Reserved.
 #
 # This file is part of django-postgres-delete-cascade
@@ -48,7 +48,7 @@ setup(
     license='BSD (http://dev.2degreesnetwork.com/p/2degrees-license.html)',
     packages=find_packages(),
     install_requires=[
-        'Django >= 1.6',
+        'Django >= 1.8',
         'psycopg2 >= 2.5',
         ],
     )
