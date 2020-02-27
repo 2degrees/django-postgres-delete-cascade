@@ -1,6 +1,8 @@
 PostgreSQL engine for Django that supports "ON DELETE CASCADE" at the database level
 ====================================================================================
 
+This project is no longer maintained.
+
 This is a temporary workaround until `Django's ticket #21961
 <https://code.djangoproject.com/ticket/21961>`_ is fixed. It has been tested
 with Python 2.7, Django 1.6 and Psycopg2 2.6, but should work with other
